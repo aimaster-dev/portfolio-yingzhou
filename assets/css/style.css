@@ -77,6 +77,13 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
 }
 
+.portfolio-wrap img {
+  height: 220px; /* or whatever height you want */
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
